@@ -4,7 +4,7 @@ import json
 def handler(event, context):
     version = os.environ.get("VERSION", "0.0")
     response_body = {
-        "message": "Hello Abhinav from Devops",
+        "message": "Hello Abhinav from Devops1",
         "version": version
     }
 
